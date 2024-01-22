@@ -1,0 +1,26 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=freshul
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-R875F
+ro.product.system_ext.name=freshulgbl
+ro.product.system_ext.display_name=Galaxy Watch4
+ro.system_ext.build.date=Tue Sep 12 18:05:39 KST 2023
+ro.system_ext.build.date.utc=1694509539
+ro.system_ext.build.fingerprint=samsung/freshulgbl/freshul:13/TWR5.230621.001/R875FXXU1HWI1:user/release-keys
+ro.system_ext.build.id=TWR5.230621.001
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=R875FXXU1HWI1
+ro.system_ext.build.version.release=13
+ro.system_ext.build.version.release_or_codename=13
+ro.system_ext.build.version.sdk=33
+ro.product.display_name=Galaxy Watch4
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+# end of file
+

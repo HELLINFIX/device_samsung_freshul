@@ -1,0 +1,192 @@
+# SS Fresh BT Large REV02 M1 20210329
+# REV03 5G 16.5dBm for all CHs 20210420
+# REV04 5G PA TRIM, 2G 11n 15dBm, CH11 0.5dB up 20210504
+# REV04 5G Low/X1 band 17dBm 20210506
+# Sample variables file for BCM943013 REF board taken from bcm943012wlref_04.txt
+# updated swctrlmap_2g for SP4T switch
+
+# $ Copyright Broadcom $
+#
+#
+# <<Broadcom-WL-IPTag/Proprietary:>>
+
+#********************SUMMARY********************
+#Board Name: bcm943013wlref
+#SSID: 0x0902
+#macmid: 0x0384
+#Successfully made SSID entry in sromdefs.tcl.
+#Successfully made macmid entry in sromdefs.tcl.
+#Successfully made SSID entry in tblssid.py.
+#*************************************************
+NVRAMRev=$Rev: 351687 $
+sromrev=11
+etmode=0x11
+cckdigfilttype=4
+bphyscale=0x28
+boardflags3=0x40000101
+vendid=0x14e4
+devid=0xA804
+manfid=0x2d0
+prodid=0x052e
+macaddr=00:90:4c:c5:12:38
+nocrc=1
+boardtype=0x0902
+boardrev=0x1401
+lpflags=0x00000020
+xtalfreq=37400
+boardflags2=0xc0800000
+boardflags=0x00400001
+extpagain2g=2
+extpagain5g=2
+ccode=0
+regrev=0
+antswitch=0
+rxgains2gelnagaina0=0
+rxgains2gtrisoa0=15
+rxgains2gtrelnabypa0=0
+rxgains5gelnagaina0=0
+rxgains5gtrisoa0=9
+rxgains5gtrelnabypa0=0
+pdgain5g=0
+pdgain2g=0
+tworangetssi2g=0
+tworangetssi5g=0
+rxchain=1
+txchain=1
+aa2g=1
+aa5g=1
+tssipos5g=0
+tssipos2g=0
+tssisleep_en=0x5
+femctrl=17
+subband5gver=4
+pa2ga0=0xFF45,0x148D,0xFD5A
+#pa2ga0=-187,6029,-748
+#FreshS R01 TxPwr Shift with default BOM
+#pa5ga0=0xFF8F,0x166D,0xFD40,0xFF98,0x16B9,0xFD40,0xFFAF,0x1867,0xFD28,0xFF96,0x1750,0xFD32
+#pa5ga0=0xFF8F,0x1707,0xFD38,0xFF98,0x17B9,0xFD33,0xFFAF,0x1901,0xFD22,0xFF96,0x17EA,0xFD2A
+# Fresh BT Small REV02 M1 C2086 TP
+#pa5ga0=0xFF8F,0x1954,0xFD18,0xFF98,0x196C,0xFD1D,0xFFAF,0x1A01,0xFD18,0xFF96,0x1950,0xFD18
+# Fresh Large REV04 16.5dBm
+pa5ga0=0xFF8F,0x1854,0xFD26,0xFF98,0x186C,0xFD2A,0xFFAF,0x1901,0xFD22,0xFF96,0x18B6,0xFD20
+# Fresh BT Small REV02 M2 -1dB
+#pa5ga0=0xFF8F,0x1907,0xFD1C,0xFF98,0x19B9,0xFD19,0xFFAF,0x1A01,0xFD18,0xFF96,0x18EA,0xFD1D
+#pa5ga0=-113,6381,-739,-104,6457,-737,-81,6631,-743,-106,6352,-738
+cckpwroffset0=4
+pdoffset40ma0=0
+pdoffset80ma0=0
+lowpowerrange2g=0
+lowpowerrange5g=0
+ed_thresh2g=-63
+ed_thresh5g=-63
+swctrlmap_2g=0x00000000,0x00100010,0x00100010,0x000000,0x3ff
+swctrlmapext_2g=0x00000000,0x00000000,0x00000000,0x000000,0x003
+swctrlmap_5g=0x00000000,0x00000000,0x00000000,0x000000,0x3a7
+swctrlmapext_5g=0x00000000,0x00010001,0x00010001,0x000000,0x001
+ulpnap=0
+ulpadc=1
+ssagc_en=0
+ds1_nap=0
+epacal2g=0
+epacal5g=0
+epacal2g_mask=0x3fff
+maxp2ga0=76
+cckbw202gpo=0x0011
+ofdmlrbw202gpo=0x0055
+dot11agofdmhrbw202gpo=0x5555
+mcsbw202gpo=0x77555555
+mac_clkgating=1
+#mcsbw402gpo=0x99555533
+maxp5ga0=80,78,78,80
+mcsbw205glpo=0x33333333
+mcsbw205gmpo=0x33333333
+mcsbw205ghpo=0x33333333
+#mcsbw405glpo=0x99555000
+#mcsbw405gmpo=0x99555000
+#mcsbw405ghpo=0x99555000
+#mcsbw805glpo=0x99555000
+#mcsbw805gmpo=0x99555000
+#mcsbw805ghpo=0x99555000
+
+# Fresh Large R04 TP C2086
+powoffs2gtna0=0,0,0,-1,-2,-4,-3,-3,-3,-2,-3,0,0,0
+# Fresh BT Large R02 M1 TP C2086
+#powoffs2gtna0=0,0,0,-1,-2,-4,-3,-3,-3,-2,-1,0,0,0
+# Fresh BT Small R02 M2 RF Connector
+#powoffs2gtna0=-1,0,0,0,0,0,-1,-2,-3,-4,-4,0,0,0
+#powoffs2gtna0=0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+rssicorrnorm_c0=0,0
+
+txwbpapden=1
+femctrlwar=0
+use5gpllfor2g=1
+
+#tx papd cal params
+#params are - 0x5g2g
+wb_rxattn=0x0303
+wb_txattn=0x0203
+wb_papdcalidx=0x1C05
+#wb_eps_offset=0x01c101ad
+wb_eps_offset=0x01bf01ad
+wb_bbmult=0x3C50
+wb_calref_db=0x1926
+wb_tia_gain_mode=0x0606
+wb_txbuf_offset=0x2020
+wb_frac_del=0x60b4
+wb_g_frac_bits=0xBA
+
+nb_rxattn=0x0403
+nb_txattn=0x0402
+nb_papdcalidx= 0x1405
+nb_eps_offset= 0x01d701ca
+nb_bbmult= 0x5A50
+nb_tia_gain_mode=0x0006
+AvVmid_c0=5,105,7,80,7,80,7,80,7,80
+
+lpo_select=4
+
+csml=0x10
+pt5db_gaintbl=0
+
+papdcck=0
+phycal_tempdelta=15
+ofdmfilttype_2gbe=1
+
+## Proxd params ##
+proxd_basekival=0,0,0,0
+proxd_basektval=0,0,0,0
+proxd_2gkval=0,0,0,0,0,0,0,0,0,0,0,0,0,0
+proxd_20mkval=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+proxd_40mkval=0,0,0,0,0,0,0,0,0,0,0,0
+proxd_80mkval=0,0,0,0,0,0
+
+# Offsets across frame formats @ Initiator
+# Only for non-VHT frame (Leg6, Leg non-6, mcs0, non-mcs0)
+# Delta between the base values are adjusted here
+proxdi_ack=0,0,0,0
+proxdi_rate2g=0,0,0,0
+proxdi_rate20m=0,0,0,0
+proxdi_rate40m=0,0,0,0
+proxdi_rate80m=0,0,0,0
+
+# Offsets across frame formats @ Responder
+proxdt_ack=0,0,0,0
+proxdt_rate2g=0,0,0,0
+proxdt_rate20m=0,0,0,0
+proxdt_rate40m=0,0,0,0
+proxdt_rate80m=0,0,0,0
+
+## 5G OFDM digital filter type settings for all channels
+ofdmfilttype_5gbe=2
+
+muxenab=0x1
+shwakepin=0x54
+
+#FCClimit
+#PowersettinginquaterdB
+#enablebysettingfccpwroverride1
+### CH12 11dBm CH13 8dBm
+fccpwrch12=44
+fccpwrch13=32
+fccpwroverride=1

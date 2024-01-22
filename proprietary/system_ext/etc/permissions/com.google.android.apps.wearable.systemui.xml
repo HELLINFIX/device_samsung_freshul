@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.google.android.apps.wearable.systemui">
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING" />
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.QUERY_AUDIO_STATE"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.REORDER_TASKS"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.MANAGE_ACTIVITY_TASKS"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>        
+	<!-- { Watch Power UI -->
+        <permission name="com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION" />
+        <!-- } Watch Power UI -->
+        <!-- { Quickpanel -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.UNLIMITED_TOASTS" />
+        <permission name="android.permission.WATCH_APPOPS" />
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+        <permission name="com.samsung.android.wear.retailmode.permission.RETAILMODE"/>
+        <permission name="com.samsung.android.permission.RECEIVE_LOCK_TASK_MODE_CHANGED"/>
+        <permission name="android.permission.GET_APP_OPS_STATS" />
+        <permission name="android.permission.BATTERY_STATS" />
+        <!-- } Quickpanel -->
+        <!-- { Volume UI -->
+        <permission name="com.google.android.clockwork.settings.permission.SHOW_VOLUME_SETTING"/>
+        <!-- } Volume UI -->
+        <!-- { LsRune.SECURITY_SIM_UI -->
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+        <!-- } LsRune.SECURITY_SIM_UI -->
+        <!-- { LsRune.SECURITY_AUTO_FACTORY_RESET -->
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <!-- } LsRune.SECURITY_AUTO_FACTORY_RESET -->
+        <!-- { Lock task QP -->
+        <permission name="com.samsung.android.permission.RECEIVE_LOCK_TASK_MODE_CHANGED"/>
+        <!-- } Lock task QP -->
+    </privapp-permissions>
+</permissions>
