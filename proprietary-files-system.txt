@@ -1,0 +1,13 @@
+-app/ImsSettings/ImsSettings.apk
+-system_ext/priv-app/CarrierConfig/CarrierConfig.apk
+-system_ext/priv-app/CellBroadcastAppPlatform/CellBroadcastAppPlatform.apk
+-system_ext/priv-app/ClockworkSystemUI/ClockworkSystemUI.apk
+-system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
+etc/nfcee_access.xml
+lib/libaptX_encoder.so
+system_ext/etc/build.prop
+system_ext/etc/group
+system_ext/etc/permissions/com.android.carrierconfig.xml
+system_ext/etc/permissions/com.android.cellbroadcastreceiver.xml
+system_ext/etc/permissions/com.google.android.apps.wearable.systemui.xml
+system_ext/etc/permissions/privapp-permissions-clockwork_ext.xml

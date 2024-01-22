@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="ambient.on">5</item>
+    <item name="screen.on">10</item>
+    <item name="screen.full">80</item>
+    <item name="audio">26.8</item>
+    <item name="video">25</item>
+    <item name="radio.scanning">55.2</item>
+    <array name="radio.on">
+        <value>1.88</value>
+        <value>1.88</value>
+    </array>
+    <item name="modem.controller.sleep">0</item>
+    <item name="modem.controller.idle">83</item>
+    <item name="modem.controller.rx">92</item>
+    <array name="modem.controller.tx">
+        <value>132</value>
+        <value>157</value>
+        <value>214</value>
+        <value>331</value>
+        <value>398</value>
+    </array>
+    <item name="modem.controller.voltage">3700</item>
+    <item name="wifi.controller.idle">1</item>
+    <item name="wifi.controller.rx">38</item>
+    <item name="wifi.controller.tx">345</item>
+    <array name="wifi.controller.tx_levels">
+        <value>0</value>
+    </array>
+    <item name="wifi.controller.voltage">3600</item>
+    <array name="wifi.batchedscan">
+        <value>.0002</value>
+        <value>.002</value>
+        <value>.02</value>
+        <value>.2</value>
+        <value>2</value>
+    </array>
+    <item name="gps.on">49</item>
+    <item name="bluetooth.controller.idle">1</item>
+    <item name="bluetooth.controller.rx">15</item>
+    <item name="bluetooth.controller.tx">55</item>
+    <item name="bluetooth.controller.voltage">3600</item>
+    <item name="cpu.suspend">1.9</item>
+    <item name="cpu.idle">15.2</item>
+    <array name="cpu.clusters.cores">
+        <value>2</value>
+    </array>
+    <array name="cpu.core_speeds.cluster0">
+        <value>200000</value>
+        <value>300000</value>
+        <value>400000</value>
+        <value>533000</value>
+        <value>667000</value>
+        <value>800000</value>
+        <value>1000000</value>
+        <value>1200000</value>
+    </array>
+    <array name="cpu.core_power.cluster0">
+        <value>6.2</value>
+        <value>6.9</value>
+        <value>7.7</value>
+        <value>9.5</value>
+        <value>11.2</value>
+        <value>13.5</value>
+        <value>17.1</value>
+        <value>21.2</value>
+    </array>
+    <item name="battery.capacity">350</item>
+    <item name="battery.typical.capacity">361</item>
+</device>
